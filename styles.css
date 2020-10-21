@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.segunda-column {
+  position: relative;
+  top: 50px;
+}    
+.tercera-column {
+  position: relative;
+  left: 10px;
+  top: 150px;
+}
+.cuarta-column {
+  position: relative;
+  left: 20px;
+  top: 50px;
+}
+.quinta-column {
+  position: relative;
+  left: 20px;
+}
+.sexta-column {
+  position: relative;
+  top: 20px;
+  left: 220px;
+  margin-bottom: 20px;
+}
+.septima-column {
+  position: relative;
+  left: 60px;
+}
+.item {
+  padding: 10px;
+  height: 28px;
+  text-align: center;
+}
+.item-header1 {
+  height: 10px;
+  width: 240px;
+  position: relative;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.item-header2 {
+  height: 10px;
+  width: 240px;
+  position: relative;
+  left: 220px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.item-header3 {
+  height: 10px;
+  width: 240px;
+  position: relative;
+  left: 440px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.ciencias-naturales {
+  background-color: rgb(31, 50, 90);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(25, 40, 73);
+}
+.inventoras-ingenieras {
+  background-color: rgb(77, 77, 170);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(55, 55, 122);
+}
+.paleontologas {
+  background-color: rgb(0, 110, 153);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(0, 73, 102);
+}
+.primatologas {
+  background-color: cyan;
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(0, 131, 131);
+}
+.matematicas {
+  background-color: rgb(116, 74, 116);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(78, 50, 78);
+}
+.astronomas {
+  background-color: rgb(197, 50, 50);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(133, 33, 33);
+}
+.fisicas {
+  background-color: rgb(255, 181, 44);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(170, 121, 29);
+}
+.bioquimicas {
+  background-color: rgb(84, 114, 84);
+  color: lightcyan;
+  font-weight: 500;
+  border: 1px solid rgb(46, 63, 46);
+}
+.quimicas {
+  background-color: rgb(228, 228, 70);
+  color: rgb(46, 63, 46);
+  font-weight: 500;
+  border: 1px solid rgb(146, 146, 45);
+}
