@@ -1,6 +1,6 @@
 function clickEvent(id) {
   var idHTML = id;
-  document.getElementById("insert").innerHTML = "";
+  document.getElementById("insert").innerHTML = "Clickea un elemento de la tabla periódica";
   console.log(idHTML);
   idtoNumber(idHTML);
   
